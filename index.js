@@ -136,7 +136,6 @@
     //displayDataList(data)
     getTotalPages(data)
     getPageData(1, 'card', data)
-    console.log(data.length);
   }).catch((err) => console.log(err))
 
   // listen to data panel
